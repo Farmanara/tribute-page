@@ -1,0 +1,71 @@
+html {
+
+background: url(./vwLogo.png);
+z-index: 0;
+}
+body{
+    position:relative;
+}
+main{
+    position: relative;
+    margin-top: 150px;
+}
+header {
+    position:fixed ;
+    z-index: 1;
+    background:white;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    font:   Impact;
+    font-size: 2rem;
+    text-shadow: 2px 2px darkcyan;
+    color: #150025;
+}
+
+#img-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+}
+
+#image {
+
+    position: relative;
+    max-width:  513px;
+    height: auto;
+     border: 0.1rem solid black;
+     margin: 0px auto 20px auto;
+    
+}
+figure{
+    height: auto;
+    position: relative;
+    border: 0.1rem solid #12213d;
+    background: gray;
+}
+#top-caption{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2rem;  
+    margin: 20px auto 20px auto;
+    color: black;
+    font-style: italic
+}
+figcaption{
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 20px auto;
+}
+#tribute-info{
+    margin: 40px ;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-shadow: 1px 1px #636363;
+}
