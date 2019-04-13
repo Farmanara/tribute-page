@@ -63,9 +63,14 @@ figcaption{
     margin: 0px auto 20px auto;
 }
 #tribute-info{
-    margin: 40px ;
+    margin-top: 40px;
+    margin: 40px 40px 40px 40px;
     text-align: justify;
-    font-family:'Times New Roman', Times, serif;
+    
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
-    text-shadow: 1px 1px #636363;
+    background: white;
+}
+p{
+    margin: 10px 20px;
 }
